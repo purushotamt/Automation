@@ -3,7 +3,7 @@ import requests
 import jsonpath
 
 
-def test_add_new_student():
+def test_add_new_Student():
     global id
     Api_url="https://thetestingworldapi.com/api/studentsDetails"
     f=open('C:/Users/Purushotam/Desktop/add_student.json', 'r')
